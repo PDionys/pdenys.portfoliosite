@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="assets/css/site.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="slides blue">
+            <div class="name">
+                <h1>Denys</h1>
+                <h2>Pustovyi</h2>
+            </div>
+
+            <div class="graduate">
+                <p class="graduate-text">Graduate of the</p>
+                <p class="kpi-text">National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”</p>
+            </div>
+
+            <div class="buttons">
+                <a href="https://github.com/PDionys" target="_blank" rel="noopener noreferrer">
+                    <button class="git-hub-button">
+                        GitHub
+                        <img src="assets/css/img/github-mark.svg" alt="Icon" />
+                    </button>
+                </a>
+                <button class="contact-me" onclick="contactMe(this)">
+                    Contact Me
+                    <img src="assets/css/img/mail_30dp.svg" alt="Icon" />
+                </button>
+            </div>
+
+            <div class="arrow-bottom">
+                <img src="assets/css/img/arrow_down.svg" />
+            </div>
+        </div>
+
+        <div class="slides yellow">
+            <div class="about">
+                <img src="assets/css/img/my_photo.jfif" />
+                <div class="about-text">
+                    <h1>About me</h1>
+                    <p>
+                        I have recently completed a master’s program at the National Technical 
+                        University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” specializing in 
+                        Software Engineering. Previously, I earned a bachelor’s degree in Information 
+                        Systems and Technologies. During my studies, I focused on software 
+                        development, algorithms, and machine learning, which provided me with a 
+                        strong foundation in technologies such as Java, Python, neural networks, and 
+                        databases. Notably, as part of my master’s thesis, I developed a prototype 
+                        application for local text-to-speech voice generation using neural networks. 
+                        Additionally, I participated in the creation of an AR project during university 
+                        assignments, which allowed me to gain practical experience in teamwork and software development.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slides blue">
+            <div class="familiar-with">
+                <h1>My knowledge base...</h1>
+                <div class="knowledge-base">
+                    <img src="assets/css/img/knowledge/java-svgrepo-com.svg" />
+                    <img src="assets/css/img/knowledge/icons8-python.svg" />
+                    <img src="assets/css/img/knowledge/icons8-c-sharp-logo.svg" />
+                    <img src="assets/css/img/knowledge/icons8-c++.svg" />
+                    <img src="assets/css/img/knowledge/icons8-tensorflow.svg" />
+                </div>
+                <h1>Connect with me</h1>
+                <div class="contacts">
+                    <a href="https://github.com/PDionys" target="_blank" rel="noopener noreferrer">
+                        <button>
+                            <img src="assets/css/img/github-mark.svg" />
+                            GitHub
+                        </button>
+                    </a>
+                    <a href="/assets/resume-en.pdf">
+                        <button>
+                            <img src="assets/css/img/description_50dp.svg" />
+                            Resume
+                        </button>
+                    </a>
+                    <a onclick="contactMe(null)">
+                    <button>
+                        <img src="assets/css/img/mail_30dp.svg" />
+                        Contact
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slides yellow">
+            <div class="my-projects">
+                <h1 class="my-projects-title">Projects</h1>
+                <div class="projects-grid">
+                    <div class="project project-1">
+                        <a class="project-frame" href="https://github.com/PDionys/DiplomProject" target="_blank" rel="noopener noreferrer">
+                            <div class="black-box"></div>
+                            <img class="redirect-icon" src="assets/css/img/share_50dp.svg" />
+                            <img src="assets/css/img/DiplomProject.jpeg" />
+                        </a>
+                        <h1>Application-Builder for Dataset Formation and Neural Network Training</h1>
+                        <p>
+                            Developed an application that facilitates the convenient creation of
+                            datasets for training neural networks in classification tasks. Additionally, the
+                            application includes functionality for creating simple neural network models
+                            using a built-in constructor.
+                        </p>
+                        <div class="find-more">
+                            <a href="https://github.com/PDionys/DiplomProject" target="_blank" rel="noopener noreferrer">
+                                FIND MORE
+                            </a>
+                            <img src="assets/css/img/icons8-github-24.png" />
+                        </div>
+                    </div>
+                    <div class="project project-2">
+                        <a class="project-frame" href="https://github.com/PDionys/Text-To-Speech-Prototype" target="_blank" rel="noopener noreferrer">
+                            <div class="black-box"></div>
+                            <img class="redirect-icon" src="assets/css/img/share_50dp.svg" />
+                            <img src="assets/css/img/Text-To-Speech-Prototype.jpeg" />
+                        </a>
+                        <h1>Text-to-Speech Application Powered by Neural Networks</h1>
+                        <p>
+                            Developed a prototype application for text-to-speech generation
+                            based on neural networks, as well as a simple audio file editor.
+                        </p>
+                        <div class="find-more">
+                            <a href="https://github.com/PDionys/Text-To-Speech-Prototype" target="_blank" rel="noopener noreferrer">
+                                FIND MORE
+                            </a>
+                            <img src="assets/css/img/icons8-github-24.png" />
+                        </div>
+                    </div>
+                    <div class="project project-3">
+                        <a class="project-frame" href="https://github.com/PDionys/WebDictionary" target="_blank" rel="noopener noreferrer">
+                            <div class="black-box"></div>
+                            <img class="redirect-icon" src="assets/css/img/share_50dp.svg" />
+                            <img src="assets/css/img/WebDictionary.jpeg" />
+                        </a>
+                        <h1>Web Dictionary</h1>
+                        <p>
+                            Developed a web application functioning as a dictionary as part of
+                            a Jakarta EE course.
+                        </p>
+                        <div class="find-more">
+                            <a href="https://github.com/PDionys/WebDictionary" target="_blank" rel="noopener noreferrer">
+                                FIND MORE
+                            </a>
+                            <img src="assets/css/img/icons8-github-24.png" />
+                        </div>
+                    </div>
+                    <div class="project project-4">
+                        <a class="project-frame" href="https://github.com/PDionys/AR_Assistent" target="_blank" rel="noopener noreferrer">
+                            <div class="black-box"></div>
+                            <img class="redirect-icon" src="assets/css/img/share_50dp.svg" />
+                            <img src="assets/css/img/AR_Assistent.jpeg" />
+                        </a>
+                        <h1>AR Assistent</h1>
+                        <p>
+                            Developed a prototype AR assistant application for Android
+                            devices.
+                        </p>
+                        <div class="find-more">
+                            <a href="https://github.com/PDionys/AR_Assistent" target="_blank" rel="noopener noreferrer">
+                                FIND MORE
+                            </a>
+                            <img src="assets/css/img/icons8-github-24.png" />
+                        </div>
+                    </div>
+                    <div class="project project-5">
+                        <a class="project-frame" href="https://github.com/PDionys/Lovecraft-Mod-Fabric-1.19" target="_blank" rel="noopener noreferrer">
+                            <div class="black-box"></div>
+                            <img class="redirect-icon" src="assets/css/img/share_50dp.svg" />
+                            <img src="assets/css/img/Lovecraft-Mod-Fabric-1.19.jpeg" />
+                        </a>
+                        <h1>Lovecraft-Mod-Fabric-1.19</h1>
+                        <p>
+                            Developed a small mod for Minecraft, which includes a new
+                            resource for the player and the implementation of a notebook system.
+                        </p>
+                        <div class="find-more">
+                            <a href="https://github.com/PDionys/Lovecraft-Mod-Fabric-1.19" target="_blank" rel="noopener noreferrer">
+                                FIND MORE
+                            </a>
+                            <img src="assets/css/img/icons8-github-24.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="assets/js/site.js"></script>
+</body>
+</html>
