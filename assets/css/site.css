@@ -13,8 +13,6 @@
 .container{
     width: 100%;
     height: 100vh;
-/*    overflow-y: scroll;
-    scroll-snap-type: y mandatory;*/
 }
 
 .slides {
@@ -39,9 +37,9 @@
 .name h1{
     font-size: 70px;
     max-width: 650px;
-        text-shadow: 0 0 10px #ff9900, /* Horizontal and vertical blur */
-                     0 0 20px #ff9900, 
-                     0 0 30px #ff9900;
+    text-shadow: 0 0 10px #ff9900,
+                 0 0 20px #ff9900, 
+                 0 0 30px #ff9900;
 }
 
 .name h2{
@@ -59,11 +57,11 @@
     width: 350px;
 }
 
-.slides h2{
+/* .slides h2{
     font-size: 70px;
     font-weight: 600;
     max-width: 650px;
-}
+} */
 
 .blue {
     background: #001f3f;
@@ -73,9 +71,8 @@
     background: #8a6a0a;
 }
 
-@-webkit-keyframes bounce { <!--
-
-    ww w. java 2 s.co m--> 0% {
+@-webkit-keyframes bounce { 
+    0% {
         transform: translateY(0px);
     }
 
@@ -310,10 +307,6 @@
     margin-bottom: 10px;
 }
 
-.project{
-/*    background-color: #b6ff00;*/
-}
-
 .projects-grid {
     display: grid;
     gap: 40px;
@@ -378,4 +371,152 @@
 .find-more img{
     width: 25px;
     height: 25px;
+}
+
+@media screen and (max-width: 430px) { /* 1561px */
+    .yellow{
+        height: auto;
+    }
+
+    .name h1{
+        font-size: 50px;
+        max-width: 650px;
+        text-shadow: 0 0 10px #ff9900,
+                     0 0 20px #ff9900, 
+                     0 0 30px #ff9900;
+    }
+
+    .name h2{
+        font-size: 50px;
+        font-style: italic;
+        max-width: 650px;
+        font-family:'Global Sans Serif';
+        text-shadow: 0 0 10px #ff9900,
+                     0 0 20px #ff9900, 
+                     0 0 30px #ff9900;
+    }
+
+    .arrow-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+        -webkit-animation: bounce 2s linear infinite;
+    }
+
+    .graduate p {
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Yu Gothic UI';
+
+        max-width: 800px;
+    }
+
+    .graduate {
+        display: flex;
+        gap: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        position: relative;
+        left: 2%;
+    }
+
+    .buttons button{
+        font-size: 20px;
+        border-radius: 20px;
+        height: 50px;
+        gap: 8px;
+        transition: transform 0.3s ease;
+        border: none;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .git-hub-button img{
+        width: 24px;
+        height: 24px;
+        position: relative;
+        top: 3px;
+    }
+
+    .contact-me img{
+        width: 24px;
+        height: 24px;
+        position: relative;
+        top: 5px;
+    }
+
+    .about {
+        display: contents;
+        gap: 20px;
+    }
+
+    .about-text{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .about-text p {
+        max-width: 750px;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .about img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .familiar-with h1 {
+        font-family: 'Yu Gothic UI';
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .knowledge-base {
+        display: flex;
+        height: 70px;
+        gap: 10px;
+    }
+
+    .knowledge-base img{
+        width: 65px;
+        height: 65px;
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(40%) contrast(30%);
+    }
+
+    .contacts {
+        display: flex;
+        gap: 20px;
+    }
+
+    .contacts button {
+        font-size: 20px;
+        background-color: transparent;
+        border: none;
+        color: darkgray;
+    
+        font-weight: bold;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .my-projects{
+        max-height: 2000px;
+    }
+
+    .projects-grid {
+        display: contents;
+    }
+
+    .project{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 1561px) {
 }
