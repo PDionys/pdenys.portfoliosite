@@ -67,6 +67,10 @@
     background: #001f3f;
 }
 
+.blue1 {
+    background: #001f3f;
+}
+
 .yellow {
     background: #8a6a0a;
 }
@@ -378,8 +382,12 @@
         height: auto;
     }
 
+    .blue{
+        height: auto;
+    }
+
     .name h1{
-        font-size: 50px;
+        font-size: 45px;
         max-width: 650px;
         text-shadow: 0 0 10px #ff9900,
                      0 0 20px #ff9900, 
@@ -522,6 +530,9 @@
     .yellow{
         height: auto;
     }
+    .blue{
+        height: auto;
+    }
 
     .arrow-bottom {
         position: absolute;
@@ -635,6 +646,9 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1561px) { /*1561 1024*/
     .yellow{
+        height: auto;
+    }
+    .blue{
         height: auto;
     }
 
