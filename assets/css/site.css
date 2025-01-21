@@ -96,7 +96,6 @@ html, body{
     position: absolute;
     bottom: 0;
     left: 48.5%;
-    /* margin-top: auto; */
     -webkit-animation: bounce 2s linear infinite;
 }
 
@@ -545,10 +544,10 @@ html, body{
     }
 
     .arrow-bottom {
-        /* position: absolute;
-        bottom: 0;
-        left: 45%; */
-        margin-top: auto;
+        position: static;
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
         -webkit-animation: bounce 2s linear infinite;
     }
 
