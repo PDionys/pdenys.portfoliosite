@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body{
+    background-color: black;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -478,6 +482,10 @@
         position: relative;
         top: 10px;
     }
+
+    .familiar-with{
+        padding-top: 20px;
+    }
     
     .familiar-with h1 {
         font-family: 'Yu Gothic UI';
@@ -526,7 +534,7 @@
     }
 }
 
-@media screen and (min-width: 431px) and (max-width: 1024px) { /*1561 1024*/
+@media screen and (min-width: 431px) and (max-width: 779px){
     .yellow{
         height: auto;
     }
@@ -584,6 +592,101 @@
 
     .familiar-with{
         height: 100%;
+
+        padding-top: 20px;
+    }
+
+    .familiar-with h1 {
+        font-family: 'Yu Gothic UI';
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .knowledge-base {
+        display: flex;
+        height: 70px;
+        gap: 40px;
+    }
+
+    .contacts{
+        padding-left: 20px;
+    }
+
+    .contacts a{
+        height: 0px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .projects-grid {
+        display: contents;
+    }
+
+    .project{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) { /*1561 1024*/
+    .yellow{
+        height: auto;
+    }
+    .blue{
+        height: auto;
+    }
+
+    .arrow-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 45%;
+        -webkit-animation: bounce 2s linear infinite;
+    }
+
+    .graduate p {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Yu Gothic UI';
+
+        max-width: 800px;
+    }
+
+    .graduate {
+        display: flex;
+        gap: 8px;
+
+        position: relative;
+        left: 2%;
+    }
+
+    .about{
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about-text p {
+        max-width: 750px;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .about-text{
+        padding-right: 10px;
+    }
+
+    .about img {
+        padding-left: 10px;
+        top: 10px;
+    }
+
+    .familiar-with *{
+        margin-bottom: 60px;
+    }
+
+    .familiar-with{
+        height: 100%;
+
+        padding-top: 20px;
     }
 
     .familiar-with h1 {
@@ -702,6 +805,8 @@
 
     .familiar-with{
         height: 100%;
+
+        padding-top: 20px;
     }
 
     .familiar-with h1 {
