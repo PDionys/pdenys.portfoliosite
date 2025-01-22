@@ -434,10 +434,14 @@ html, body{
         left: 2%;
     }
 
+    .buttons{
+        gap: 18px;
+    }
+
     .buttons button{
-        font-size: 20px;
+        font-size: 16px;
         border-radius: 20px;
-        height: 50px;
+        height: 45px;
         gap: 8px;
         transition: transform 0.3s ease;
         border: none;
@@ -448,7 +452,7 @@ html, body{
         width: 24px;
         height: 24px;
         position: relative;
-        top: 3px;
+        top: 4px;
     }
 
     .contact-me img{
@@ -638,10 +642,10 @@ html, body{
     }
 
     .arrow-bottom {
-        position: absolute;
-        bottom: 0;
-        left: 45%;
-        margin-top: auto;
+        position: static;
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
         -webkit-animation: bounce 2s linear infinite;
     }
 
